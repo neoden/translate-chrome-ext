@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "EN-RU translate",
+  "description": "Instant translation from English to Russian using Google Translate",
+  "version": "0.0.1",
+
+  "permissions": [
+    "https://translate.google.ru/",
+    "contextMenus"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
